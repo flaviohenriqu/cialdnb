@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+TEST-*.xml
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+chemondis_env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pycharm
+.idea/*
+!.idea/runConfigurations/
+.idea/runConfigurations/*
+!.idea/runConfigurations/CheMondis_Server.xml
+!.idea/runConfigurations/local_backends.xml
+
+# vcscode
+.vscode/*
+local_env.sh
+local_install.sh
+
+# media files
+/media/
+!/media/password_common.gz
+
+# mac
+.DS_Store
+
+# direnv file
+.envrc
+
+docker-compose.override.yml
